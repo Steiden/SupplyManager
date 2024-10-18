@@ -1,0 +1,96 @@
+/* Grid */
+.supplymanager-supplymanager-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.supplymanager-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.supplymanager-row-actions li { float: left; }
+ul.supplymanager-row-actions .supplymanager-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.supplymanager-row-actions .actions-menu { width: 40px; }
+ul.supplymanager-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.supplymanager-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.supplymanager-btn:focus, .supplymanager-btn:active:focus, .supplymanager-btn.active:focus, .supplymanager-btn.focus, .supplymanager-btn:active.focus, .supplymanager-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.supplymanager-btn:hover, .supplymanager-btn:focus, .supplymanager-btn.focus { color: #333; text-decoration: none }
+.supplymanager-btn:active, .supplymanager-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.supplymanager-btn.disabled, .supplymanager-btn[disabled], fieldset[disabled] .supplymanager-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.supplymanager-btn.disabled, fieldset[disabled] a.supplymanager-btn { pointer-events: none }
+.supplymanager-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.supplymanager-btn-default:focus, .supplymanager-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.supplymanager-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.supplymanager-btn-default:active, .supplymanager-btn-default.active, .open > .dropdown-toggle.supplymanager-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.supplymanager-btn-default:active:hover, .supplymanager-btn-default.active:hover, .open > .dropdown-toggle.supplymanager-btn-default:hover, .supplymanager-btn-default:active:focus, .supplymanager-btn-default.active:focus, .open > .dropdown-toggle.supplymanager-btn-default:focus, .supplymanager-btn-default:active.focus, .supplymanager-btn-default.active.focus, .open > .dropdown-toggle.supplymanager-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.supplymanager-btn-default:active, .supplymanager-btn-default.active, .open > .dropdown-toggle.supplymanager-btn-default { background-image: none }
+.supplymanager-btn-default.disabled:hover, .supplymanager-btn-default[disabled]:hover, fieldset[disabled] .supplymanager-btn-default:hover, .supplymanager-btn-default.disabled:focus, .supplymanager-btn-default[disabled]:focus, fieldset[disabled] .supplymanager-btn-default:focus, .supplymanager-btn-default.disabled.focus, .supplymanager-btn-default[disabled].focus, fieldset[disabled] .supplymanager-btn-default.focus { background-color: #fff; border-color: #ccc }
+.supplymanager-btn-default .badge { color: #fff; background-color: #333 }
+.supplymanager-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.supplymanager-btn-primary:focus, .supplymanager-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.supplymanager-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.supplymanager-btn-primary:active, .supplymanager-btn-primary.active, .open > .dropdown-toggle.supplymanager-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.supplymanager-btn-primary:active:hover, .supplymanager-btn-primary.active:hover, .open > .dropdown-toggle.supplymanager-btn-primary:hover, .supplymanager-btn-primary:active:focus, .supplymanager-btn-primary.active:focus, .open > .dropdown-toggle.supplymanager-btn-primary:focus, .supplymanager-btn-primary:active.focus, .supplymanager-btn-primary.active.focus, .open > .dropdown-toggle.supplymanager-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.supplymanager-btn-primary:active, .supplymanager-btn-primary.active, .open > .dropdown-toggle.supplymanager-btn-primary { background-image: none }
+.supplymanager-btn-primary.disabled:hover, .supplymanager-btn-primary[disabled]:hover, fieldset[disabled] .supplymanager-btn-primary:hover, .supplymanager-btn-primary.disabled:focus, .supplymanager-btn-primary[disabled]:focus, fieldset[disabled] .supplymanager-btn-primary:focus, .supplymanager-btn-primary.disabled.focus, .supplymanager-btn-primary[disabled].focus, fieldset[disabled] .supplymanager-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.supplymanager-btn-primary .badge { color: #337ab7; background-color: #fff }
+.supplymanager-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.supplymanager-btn-success:focus, .supplymanager-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.supplymanager-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.supplymanager-btn-success:active, .supplymanager-btn-success.active, .open > .dropdown-toggle.supplymanager-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.supplymanager-btn-success:active:hover, .supplymanager-btn-success.active:hover, .open > .dropdown-toggle.supplymanager-btn-success:hover, .supplymanager-btn-success:active:focus, .supplymanager-btn-success.active:focus, .open > .dropdown-toggle.supplymanager-btn-success:focus, .supplymanager-btn-success:active.focus, .supplymanager-btn-success.active.focus, .open > .dropdown-toggle.supplymanager-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.supplymanager-btn-success:active, .supplymanager-btn-success.active, .open > .dropdown-toggle.supplymanager-btn-success { background-image: none }
+.supplymanager-btn-success.disabled:hover, .supplymanager-btn-success[disabled]:hover, fieldset[disabled] .supplymanager-btn-success:hover, .supplymanager-btn-success.disabled:focus, .supplymanager-btn-success[disabled]:focus, fieldset[disabled] .supplymanager-btn-success:focus, .supplymanager-btn-success.disabled.focus, .supplymanager-btn-success[disabled].focus, fieldset[disabled] .supplymanager-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.supplymanager-btn-success .badge { color: #5cb85c; background-color: #fff }
+.supplymanager-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.supplymanager-btn-info:focus, .supplymanager-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.supplymanager-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.supplymanager-btn-info:active, .supplymanager-btn-info.active, .open > .dropdown-toggle.supplymanager-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.supplymanager-btn-info:active:hover, .supplymanager-btn-info.active:hover, .open > .dropdown-toggle.supplymanager-btn-info:hover, .supplymanager-btn-info:active:focus, .supplymanager-btn-info.active:focus, .open > .dropdown-toggle.supplymanager-btn-info:focus, .supplymanager-btn-info:active.focus, .supplymanager-btn-info.active.focus, .open > .dropdown-toggle.supplymanager-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.supplymanager-btn-info:active, .supplymanager-btn-info.active, .open > .dropdown-toggle.supplymanager-btn-info { background-image: none }
+.supplymanager-btn-info.disabled:hover, .supplymanager-btn-info[disabled]:hover, fieldset[disabled] .supplymanager-btn-info:hover, .supplymanager-btn-info.disabled:focus, .supplymanager-btn-info[disabled]:focus, fieldset[disabled] .supplymanager-btn-info:focus, .supplymanager-btn-info.disabled.focus, .supplymanager-btn-info[disabled].focus, fieldset[disabled] .supplymanager-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.supplymanager-btn-info .badge { color: #5bc0de; background-color: #fff }
+.supplymanager-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.supplymanager-btn-warning:focus, .supplymanager-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.supplymanager-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.supplymanager-btn-warning:active, .supplymanager-btn-warning.active, .open > .dropdown-toggle.supplymanager-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.supplymanager-btn-warning:active:hover, .supplymanager-btn-warning.active:hover, .open > .dropdown-toggle.supplymanager-btn-warning:hover, .supplymanager-btn-warning:active:focus, .supplymanager-btn-warning.active:focus, .open > .dropdown-toggle.supplymanager-btn-warning:focus, .supplymanager-btn-warning:active.focus, .supplymanager-btn-warning.active.focus, .open > .dropdown-toggle.supplymanager-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.supplymanager-btn-warning:active, .supplymanager-btn-warning.active, .open > .dropdown-toggle.supplymanager-btn-warning { background-image: none }
+.supplymanager-btn-warning.disabled:hover, .supplymanager-btn-warning[disabled]:hover, fieldset[disabled] .supplymanager-btn-warning:hover, .supplymanager-btn-warning.disabled:focus, .supplymanager-btn-warning[disabled]:focus, fieldset[disabled] .supplymanager-btn-warning:focus, .supplymanager-btn-warning.disabled.focus, .supplymanager-btn-warning[disabled].focus, fieldset[disabled] .supplymanager-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.supplymanager-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.supplymanager-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.supplymanager-btn-danger:focus, .supplymanager-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.supplymanager-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.supplymanager-btn-danger:active, .supplymanager-btn-danger.active, .open > .dropdown-toggle.supplymanager-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.supplymanager-btn-danger:active:hover, .supplymanager-btn-danger.active:hover, .open > .dropdown-toggle.supplymanager-btn-danger:hover, .supplymanager-btn-danger:active:focus, .supplymanager-btn-danger.active:focus, .open > .dropdown-toggle.supplymanager-btn-danger:focus, .supplymanager-btn-danger:active.focus, .supplymanager-btn-danger.active.focus, .open > .dropdown-toggle.supplymanager-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.supplymanager-btn-danger:active, .supplymanager-btn-danger.active, .open > .dropdown-toggle.supplymanager-btn-danger { background-image: none }
+.supplymanager-btn-danger.disabled:hover, .supplymanager-btn-danger[disabled]:hover, fieldset[disabled] .supplymanager-btn-danger:hover, .supplymanager-btn-danger.disabled:focus, .supplymanager-btn-danger[disabled]:focus, fieldset[disabled] .supplymanager-btn-danger:focus, .supplymanager-btn-danger.disabled.focus, .supplymanager-btn-danger[disabled].focus, fieldset[disabled] .supplymanager-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.supplymanager-btn-danger .badge { color: #d9534f; background-color: #fff }
+.supplymanager-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.supplymanager-btn-link, .supplymanager-btn-link:active, .supplymanager-btn-link.active, .supplymanager-btn-link[disabled], fieldset[disabled] .supplymanager-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.supplymanager-btn-link, .supplymanager-btn-link:hover, .supplymanager-btn-link:focus, .supplymanager-btn-link:active { border-color: transparent }
+.supplymanager-btn-link:hover, .supplymanager-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.supplymanager-btn-link[disabled]:hover, fieldset[disabled] .supplymanager-btn-link:hover, .supplymanager-btn-link[disabled]:focus, fieldset[disabled] .supplymanager-btn-link:focus { color: #777; text-decoration: none }
+.supplymanager-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.supplymanager-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.supplymanager-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.supplymanager-btn-block { display: block; width: 100% }
+.supplymanager-btn-block + .supplymanager-btn-block { margin-top: 5px }
